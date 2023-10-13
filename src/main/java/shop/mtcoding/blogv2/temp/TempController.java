@@ -14,34 +14,34 @@ public class TempController {
         return "index";
     }
 
-    @GetMapping("/loginForm")
-    public String loginForm(){
-        return "user/loginForm";
-    }
+//    @GetMapping("/loginForm")
+//    public String loginForm(){
+//        return "user/loginForm";
+//    }
+//
+//    @GetMapping("/joinForm")
+//    public String joinForm(){
+//        return "user/joinForm";
+//    }
+//
+//    @GetMapping("/user/updateForm") // board에도 updateForm이 있기 때문에
+//    public String userUpdateForm(){
+//        return "user/updateForm";
+//    }
 
-    @GetMapping("/joinForm")
-    public String joinForm(){
-        return "user/joinForm";
-    }
+//    @GetMapping("/board/{id}")
+//    public String boardDetail(@PathVariable Integer id){
+//        return "board/detail";
+//    }
 
-    @GetMapping("/user/updateForm") // board에도 updateForm이 있기 때문에
-    public String userUpdateForm(){
-        return "user/updateForm";
-    }
+//    @GetMapping("/board/saveForm")
+//    public String saveForm(){
+//        return "board/saveForm";
+//    }
 
-    @GetMapping("/board/{id}")
-    public String boardDetail(@PathVariable Integer id){
-        return "board/detail";
-    }
-
-    @GetMapping("/board/saveForm")
-    public String saveForm(){
-        return "board/saveForm";
-    }
-
-    @GetMapping("/board/updateForm")
-    public String boardUpdateForm(){
-        return "board/updateForm";
-    }
+//    @GetMapping("/board/updateForm")
+//    public String boardUpdateForm(){
+//        return "board/updateForm";
+//    }
 
 }
